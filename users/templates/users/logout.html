@@ -1,0 +1,16 @@
+{% extends "mainf/base.html" %}
+{% block body %}
+
+
+    <div class="content-section">    
+        <div class="form-group w-25 oggy"> 
+        
+            <h4>You have been logged out</h4>
+            <div class="border-top pt-3">
+                <small class="text-muted">
+                    <a  href="{% url 'login' %}">Log In Again</a>
+                </small>
+            </div>
+        </div>
+    </div>
+{% endblock body %}
